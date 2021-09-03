@@ -7,3 +7,5 @@ if ($kw > 200 && $kw < 1000)
 $kw = $kw * 0.1;
 if ($kw >= 1000)
 $kw = $kw * 0.15;
+echo "el importe es $kw";
+?>
